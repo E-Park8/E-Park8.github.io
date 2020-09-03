@@ -25,7 +25,7 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
-        <!-- These are the navigation buttons that take you to different sections. -->
+      <!-- These are the navigation buttons that take you to different sections. -->
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
@@ -41,68 +41,126 @@
     </div>
   </nav>
 
-  
+<form>
   <aside id="portfolio" class="container">
     <article class="row">
 
-      <!-- 1st card -->
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img src="./Assets/Images/Horiseon.png" class="card-img-top" alt="Horiseon Marketing website">
-          <div class="card-body">
-            <h5 class="card-title">Horiseon</h5>
-            <p class="card-text">Fixed layout for Horiseon website. A brand that focuses on marketing services.</p>
-            <a href="https://e-park8.github.io/code-refactor/" target="_blank" class="btn btn-primary">Go Here</a>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- 2nd card -->
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img src="./Assets/Images/scratchactivity.png" class="card-img-top" alt="Cat and Cheesy Puff game">
-          <div class="card-body">
-            <h5 class="card-title">Cat and Cheesy Puff game</h5>
-            <p class="card-text">Simple game made using Scratch. Use the arrow keys to guide the cat to the cheesy puffs!</p>
-            <a href="https://scratch.mit.edu/projects/411205903" target="_blank" class="btn btn-primary">Go Here</a>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- 3rd card -->
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img src="./Assets/Images/bite-wallet.png" class="card-img-top" alt="Bite-Wallet Project">
+      
+      <div class="col-md-6">
+        <div class="card">
+          <img id='bite' src="./Assets/Images/bite-wallet.png" class="card-img-top" alt="Bite-Wallet Project">
           <div class="card-body">
             <h5 class="card-title">Project 1: Bite-Wallet</h5>
-            <p class="card-text">Using finnhub and yelp APIs, this application tracks stocks and returns yelp restaurant recommendations based on how well or poorly a selected stock is doing.</p>
-            <a href="https://shellynguyen98.github.io/Project-1/" class="btn btn-primary">Go Here</a>
+            <p class="card-text">Using finnhub and yelp APIs, this app tracks stocks and returns yelp restaurant
+              recommendations based on how selected stocks are doing.</p>
+            <a href="https://shellynguyen98.github.io/Project-1/" class="btn btn-primary">Deployed App</a>
+            <a href="https://github.com/ShellyNguyen98/Project-1" class="btn btn-primary">Github Repo</a>
           </div>
         </div>
       </div>
 
-    </article>
-  </aside>
-  
-  <!-- Bottom Bar -->
-  <footer class="fixed-bottom bg-dark">
-    <p>
-      <br>
-    </p>
-  </footer>
+     
+      <div class="col-md-6">
+        <div class="card">
+          <img id= 'busks' src="./Assets/Images/busksintown.jpg" class="card-img-top" alt="Busks in Town">
+          <div class="card-body">
+            <h5 class="card-title">Busks in Town</h5>
+            <p class="card-text">Full Stack application that allows users to create artist profiles and schedule performances.</p>
+            <a href="http://guarded-crag-60613.herokuapp.com/" target="_blank" class="btn btn-primary">Deployed App</a>
+            <a href="https://github.com/datrimboli/BusksInTown" target="_blank" class="btn btn-primary">Github Repo</a>
+          </div>
+        </div>
+      </div>
 
-  <!-- Enabling Bootstrap Javascript -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+
+
+
+
+
+
+    </article>
+ 
+      <hr>
+      <article class="row">
+
+        <!-- 1st card -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Assets/Images/notetaker-app.png" class="card-img-top" alt="Note Taker App">
+            <div class="card-body">
+              <h5 class="card-title">Note Taker</h5>
+              <p class="card-text">Note Taking app with functions to save, revist, and delete notes.</p>
+              <a href="https://ericparknotetaker.herokuapp.com/" target="_blank" class="btn btn-primary">Deployed App</a>
+              <a href="https://github.com/E-Park8/notetaker" target="_blank" class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 2nd card -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Assets/Images/teamExample.png" class="card-img-top" alt="Employee Generator">
+            <div class="card-body">
+              <h5 class="card-title">Employee Generator</h5>
+              <p class="card-text">Application that allows users to log employees based on their job title.</p>
+              <a href="https://github.com/E-Park8/teamprofile" target="_blank" class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Assets/Images/dayplanner.png" class="card-img-top" alt="Day Planner">
+            <div class="card-body">
+              <h5 class="card-title">Work Day Scheudler</h5>
+              <p class="card-text">Logs tasks needed to be done throughout the hours of a typical work day.</p>
+              <a href=" https://e-park8.github.io/dayplanner/" class="btn btn-primary">Deployed App</a>
+              <a href="https://github.com/E-Park8/dayplanner" class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </article>
+
+
+        <hr>
+        <article class="row">
+  
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./Assets/Images/employeegenerator.png" class="card-img-top" alt="Employee Management">
+              <div class="card-body">
+                <h5 class="card-title">Employee Management</h5>
+                <p class="card-text">Back-end application that allows users to easily view and update employees within a database.</p>
+                <a href="https://github.com/E-Park8/employeemanagement" target="_blank" class="btn btn-primary">Github Repo</a>
+              </div>
+            </div>
+          </div>
+    </aside>
+  </form>
+  <hr>
+    <!-- Bottom Bar -->
+    <footer class="fixed-bottom bg-dark">
+      <p>
+        <br>
+      </p>
+    </footer>
+
+    <!-- Enabling Bootstrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
